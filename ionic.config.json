@@ -1,0 +1,10 @@
+{
+  "name": "Wisuda2022",
+  "integrations": {
+    "capacitor": {
+      "enabled": false
+    },
+    "cordova": {}
+  },
+  "type": "angular"
+}
