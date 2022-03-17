@@ -11,27 +11,31 @@
   
     <div class="wrapper">
       <div class="clash-card barbarian">
-        <div >
-          <img src="https://www.pngfind.com/pngs/m/643-6431452_graduate-png-spot-admission-transparent-png.png" height="230px" />
+        <div *ngIf="this.foto == ''" >
+          <img src="https://images.vexels.com/media/users/3/166424/isolated/lists/9068d42fc762f2d9915a4dd75cfbbcec-male-graduate-avatar-icon.png" height="280px" />
         </div>
-        <div class="clash-card__level clash-card__level--barbarian">Anggra Triawan</div>
-        <div class="clash-card__unit-description">
-          <img src="https://cdn.vectorstock.com/i/1000x1000/41/97/qr-code-large-vector-884197.webp" height="140px" />
+        <div *ngIf="this.foto != ''" >
+          <img src="http://akademik.unbin.ac.id/foto/mahasiswa/{{foto}}" height="280px" />
+        </div>
+        <br>
+        <div class="clash-card__level clash-card__level--barbarian">{{nama}}</div>
+        <div>
+          <ngx-qrcode  [value]="createdCode" ></ngx-qrcode>
         </div>
   
         <div class="clash-card__unit-stats clash-card__unit-stats--barbarian clearfix">
           <div class="one-third">
-            <div class="stat">SI</div>
+            <div class="stat">{{nama_singkat}}</div>
             <div class="stat-value">Prodi</div>
           </div>
   
           <div class="one-third">
-            <div class="stat">A</div>
+            <div class="stat">{{kd_kelas}}</div>
             <div class="stat-value">Kelas</div>
-          </div>
+          </div> 
   
           <div class="one-third no-border">
-            <div class="stat">S1</div>
+            <div class="stat">{{nama_jenjang}}</div>
             <div class="stat-value">Jenjang</div>
           </div>
   

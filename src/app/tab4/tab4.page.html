@@ -15,11 +15,11 @@
                     <form class="form-horizontal">
                         <div class="form-group">
                             <span class="input-icon"><i class="fa fa-lock"></i></span>
-                            <input type="password" class="form-control" placeholder="NPM">
+                            <input [(ngModel)]="npm" name="npm" 
+                            style="width:100%;height:40px;text-align: center;font-size:20px;"
+                            placeholder="masukan NPM">
                         </div>
-                        <ion-tab-button tab="tab2">
-                        <button class="btn signin">Login</button>
-                      </ion-tab-button>
+                        <button class="btn signin" (click)="trylogin()">Login</button>
                     </form>
                 </div>
             </div>

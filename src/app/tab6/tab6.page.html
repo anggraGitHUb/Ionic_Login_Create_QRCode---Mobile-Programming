@@ -1,0 +1,24 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>ANGKATAN ALUMNI</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-list *ngFor="let datas of responeData">
+
+    <ion-item>
+      <ion-avatar slot="start" *ngIf="datas.foto == ''" style="width: 20%; height: 20%;">
+        <img src="https://images.vexels.com/media/users/3/166424/isolated/lists/9068d42fc762f2d9915a4dd75cfbbcec-male-graduate-avatar-icon.png" />
+      </ion-avatar>
+      <ion-avatar slot="start" *ngIf="datas.foto != ''" style="width: 20%; height: 20%;">
+        <img src="http://akademik.unbin.ac.id/foto/mahasiswa/{{datas.foto}}" />
+      </ion-avatar>
+      <ion-label style="background-color: aquamarine;box-shadow: 10px 10px 5px lightblue;">
+        <h2>&nbsp;{{datas.nama}}</h2><br>
+        <p>{{datas.alamat}}</p>
+        <p>{{datas.email}}</p>
+      </ion-label>
+    </ion-item>
+  </ion-list>
+</ion-content>

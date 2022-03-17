@@ -13,6 +13,7 @@
   },
   "private": true,
   "dependencies": {
+    "0": "^0.0.0",
     "@angular/common": "~13.0.0",
     "@angular/core": "~13.0.0",
     "@angular/forms": "~13.0.0",
@@ -29,9 +30,11 @@
     "@ionic-native/barcode-scanner": "^5.36.0",
     "@ionic-native/core": "^5.36.0",
     "@ionic/angular": "^6.0.0",
+    "@ionic/storage": "^2.2.0",
     "@syncfusion/ej2-angular-barcode-generator": "^19.4.48",
     "ejs": "^3.1.6",
     "ngx-qrcode": "^0.1.0-rc.1",
+    "ngx-qrcode2": "^9.0.0",
     "rxjs": "~6.6.0",
     "tslib": "^2.2.0",
     "zone.js": "~0.11.4"

@@ -1,54 +1,10 @@
-// delete the following line if no text is used
-// edit the line if you wanna use other fonts
+
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,600);
 
-// use only the available space inside the 400x400 frame
-// .frame {
-//   position: fixed;
-//   top: 39%;
-//   left: 50%;
-//   width: 100%;
-//   height: 100%;
-//   margin-top: -200px;
-//   margin-left: -200px;
-//   border-radius: 2px;
-//   box-shadow: 4px 8px 16px 0 rgba(0, 0, 0, 0.1);
-//   overflow: hidden;
-//   color: #333;
-//   font-family: "Open Sans", Helvetica, sans-serif;
-//   -webkit-font-smoothing: antialiased;
-//   -moz-osx-font-smoothing: grayscale;
-
-//   /*
-// 	http://colorzilla.com/gradient-editor */
-//   background: rgb(253, 162, 49);
-//   background: -moz-linear-gradient(
-//     45deg,
-//     rgba(253, 162, 49, 1) 0%,
-//     rgba(251, 183, 49, 1) 60%,
-//     rgba(253, 202, 49, 1) 100%
-//   );
-//   background: -webkit-linear-gradient(
-//     45deg,
-//     rgba(253, 162, 49, 1) 0%,
-//     rgba(251, 183, 49, 1) 60%,
-//     rgba(253, 202, 49, 1) 100%
-//   );
-//   background: linear-gradient(
-//     45deg,
-//     rgba(253, 162, 49, 1) 0%,
-//     rgba(251, 183, 49, 1) 60%,
-//     rgba(253, 202, 49, 1) 100%
-//   );
-//   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fda231', endColorstr='#fdca31',GradientType=1 );
-// }
-
-// .center {
-//   position: absolute;
-//   top: 50%;
-//   left: 50%;
-//   transform: translate(-50%, -50%);
-// }
+ion-title {
+  text-align: center !important;
+  font-family: Arial, Helvetica, sans-serif;
+}
 
 .todo-cmp {
   background: #ffffff;
